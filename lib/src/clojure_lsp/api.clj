@@ -339,6 +339,7 @@
              (keyword? (:format output)))
          (or (nil? settings)
              (map? settings))]}
+  (println "First modify by Paul")
   (safe-process-message
     options
     (internal-api/dump options)))
